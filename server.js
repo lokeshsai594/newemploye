@@ -25,6 +25,10 @@ app.get('/', (req, res)=> {
     res.json('welcome to employee home page...');
 });
 
+app.get('/new', (req, res)=> {
+    res.json('we found a new page on port 5000....');
+});
+
 app.get('/format', (req, res)=> {            //this is for the dateformattypeAPI workaround
     res.send('here the date format page...');
     let d = new Date();
