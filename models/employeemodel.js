@@ -12,6 +12,9 @@ const employeeSchema =  mongoose.Schema({
     },
     city: {
         type: String
+    },
+    state: {
+        type: String
     }
 });
 
